@@ -5,6 +5,33 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 This CHANGELOG follows conventions [outlined here](http://keepachangelog.com/).
 
+## [6.79.0](https://github.com/JimmyLv/parabol/compare/parabol-action-v6.78.1...parabol-action-v6.79.0) (2022-10-13)
+
+
+### Features
+
+* Add confirmation tooltip on the retro meeting sidebar ([#7248](https://github.com/JimmyLv/parabol/issues/7248)) ([dfafceb](https://github.com/JimmyLv/parabol/commit/dfafceb83ac0c8fef24ea0d1526e5596a5dde5dd))
+* **metrics:** Send isPatient0 property to Google Analytics ([#7261](https://github.com/JimmyLv/parabol/issues/7261)) ([a046fe7](https://github.com/JimmyLv/parabol/commit/a046fe7d03581e3400f0f12790ceea848a2f0e73))
+* show you in emoji list instead of viewer name ([#7285](https://github.com/JimmyLv/parabol/issues/7285)) ([29e2e93](https://github.com/JimmyLv/parabol/commit/29e2e9347bc3975fd6fd392ef40f27538ae2be6c))
+
+
+### Bug Fixes
+
+* add changelog-types ([b62b86d](https://github.com/JimmyLv/parabol/commit/b62b86db9213ca42e5dde4f5459f7fcf962efe84))
+* add release PR for staging branch (if bugfix) ([47a7794](https://github.com/JimmyLv/parabol/commit/47a7794c014a5c0eff5d13fd96d290e6870e82fa))
+* add release-type ([6ae34cc](https://github.com/JimmyLv/parabol/commit/6ae34ccae3087d8750cd3b89ea2a76f966322f6e))
+* added the bootstrap-sha ([ca26e82](https://github.com/JimmyLv/parabol/commit/ca26e8280b4b4ddb25e7c92c2ba822c879a266bc))
+* added the bootstrap-sha ([a4878ef](https://github.com/JimmyLv/parabol/commit/a4878ef6b43638668afeed2fbd23cb5f6f2481ff))
+* just include component in tag ([0ab1e87](https://github.com/JimmyLv/parabol/commit/0ab1e87b67a5f10918bc729c70dd89389b9a895a))
+* **noImplicitAny:** Fixup 200 ts rules (Part 2 of 2) ([#7193](https://github.com/JimmyLv/parabol/issues/7193)) ([c5b7306](https://github.com/JimmyLv/parabol/commit/c5b73062d4935b14af6b0d332e4e74e864a83620))
+* other tabs break when accepting a team invitation via a link ([#7200](https://github.com/JimmyLv/parabol/issues/7200)) ([d51ca5a](https://github.com/JimmyLv/parabol/commit/d51ca5a1836756c284530e79f3ba17615e8cbf68))
+* participants follow facilitator ([#7269](https://github.com/JimmyLv/parabol/issues/7269)) ([1800d0f](https://github.com/JimmyLv/parabol/commit/1800d0f062d21cdc1d98dc59cda4ea190c2b4667))
+* remove the bootstrap-sha ([d225aa2](https://github.com/JimmyLv/parabol/commit/d225aa2b0e35f6ac957a373f0398321193fdb5bb))
+* remove the last-release-sha ([dc52543](https://github.com/JimmyLv/parabol/commit/dc525434e3b308a60eaa5d2e26d6b1914fff52f5))
+* unsubscribe analytics bug ([#7255](https://github.com/JimmyLv/parabol/issues/7255)) ([39e9d38](https://github.com/JimmyLv/parabol/commit/39e9d3805fdde52e608c8c82bead2016b07872ac))
+* update the release please name & trigger branch ([2c1587b](https://github.com/JimmyLv/parabol/commit/2c1587bf809f3c0e8be9c7c594a3b77e9d2e92a1))
+* updated the last-release-sha ([4306ff9](https://github.com/JimmyLv/parabol/commit/4306ff942b7521671b5be9f1dcc842d292420c1e))
+
 ## [6.78.1](https://github.com/ParabolInc/parabol/compare/v6.78.0...v6.78.1) (2022-10-12)
 
 
