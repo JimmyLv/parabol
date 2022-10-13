@@ -10,7 +10,7 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         with:
           command: manifest
-          bootstrap-sha: a119339b0efbda622bdc37467497d6d64e746ebb
+          last-release-sha: a119339b0efbda622bdc37467497d6d64e746ebb
           release-type: node
           changelog-types: '[{"type":"feat","section":"Added","hidden":false},{"type":"fix","section":"Fixed","hidden":false},{"type":"chore","section":"Added","hidden":false}]'
           token: ${{secrets.GITHUB_TOKEN}}
