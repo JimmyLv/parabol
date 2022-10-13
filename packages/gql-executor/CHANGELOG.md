@@ -1,9 +1,18 @@
-# Change Log
+# Changelog
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * parabol-client bumped from ^6.78.0-beta.0 to ^6.77.1
+    * parabol-server bumped from ^6.78.0-beta.0 to ^6.78.0
+
+## Change Log
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [6.78.0-beta.0](https://github.com/ParabolInc/parabol/compare/v6.37.0...v6.78.0-beta.0) (2022-10-13)
+## [6.78.0-beta.0](https://github.com/ParabolInc/parabol/compare/v6.37.0...v6.78.0-beta.0) (2022-10-13)
 
 
 ### Bug Fixes
