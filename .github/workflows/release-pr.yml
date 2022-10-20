@@ -23,7 +23,7 @@ jobs:
           git checkout -b release--branches--master
           yarn install --frozen-lockfile
           npx lerna version --conventional-commits --conventional-prerelease --create-release github --preid rc --yes --no-push
-          git push --force --set-upstream origin release--branches--master
+          git push --force --set-upstream origin release--branches--master --follow-tags
       - name: get-npm-version
         id: package-version
         uses: martinbeentjes/npm-get-version-action@main
