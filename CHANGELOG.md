@@ -358,6 +358,28 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 This CHANGELOG follows conventions [outlined here](http://keepachangelog.com/).
 
+## [6.78.0](https://github.com/JimmyLv/parabol/compare/v6.77.0...v6.78.0) (2022-10-20)
+
+
+### Features
+
+* **metrics:** Send isPatient0 property to Google Analytics ([#7261](https://github.com/JimmyLv/parabol/issues/7261)) ([a046fe7](https://github.com/JimmyLv/parabol/commit/a046fe7d03581e3400f0f12790ceea848a2f0e73))
+
+
+### Bug Fixes
+
+* add yarn install ([1990b93](https://github.com/JimmyLv/parabol/commit/1990b93e02f04f07eb36d9543104e232621ec98b))
+* fetch all history for all tags and branches ([981da2a](https://github.com/JimmyLv/parabol/commit/981da2a9fc90bc67ae5910ad82b7828d60485308))
+* fix yaml format ([ce970b4](https://github.com/JimmyLv/parabol/commit/ce970b4da2985dae67146d0a5784f26cfd5758b1))
+* merge master to staging ([1be8a9b](https://github.com/JimmyLv/parabol/commit/1be8a9b39388bd71fec878b573f88c4258c2982e))
+* **noImplicitAny:** Fixup 200 ts rules (Part 2 of 2) ([#7193](https://github.com/JimmyLv/parabol/issues/7193)) ([c5b7306](https://github.com/JimmyLv/parabol/commit/c5b73062d4935b14af6b0d332e4e74e864a83620))
+* other tabs break when accepting a team invitation via a link ([#7200](https://github.com/JimmyLv/parabol/issues/7200)) ([d51ca5a](https://github.com/JimmyLv/parabol/commit/d51ca5a1836756c284530e79f3ba17615e8cbf68))
+* participants follow facilitator ([#7269](https://github.com/JimmyLv/parabol/issues/7269)) ([1800d0f](https://github.com/JimmyLv/parabol/commit/1800d0f062d21cdc1d98dc59cda4ea190c2b4667))
+* unsubscribe analytics bug ([#7255](https://github.com/JimmyLv/parabol/issues/7255)) ([39e9d38](https://github.com/JimmyLv/parabol/commit/39e9d3805fdde52e608c8c82bead2016b07872ac))
+* update the actions/checkout@v3 ([a2ed4ba](https://github.com/JimmyLv/parabol/commit/a2ed4baa10f8412167a072c837b06af06189de32))
+* update the actions/setup-node@v3 ([6382d20](https://github.com/JimmyLv/parabol/commit/6382d2007c51f89bad7c260a82bd465769990cfd))
+* update to use lerna version directly ([1245329](https://github.com/JimmyLv/parabol/commit/12453290e305f6a37712027c27b7b910b76592ee))
+
 ## 6.77.0 2022-October-5
 
 ### Added
