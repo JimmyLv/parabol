@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.79.1-rc.0](https://github.com/ParabolInc/parabol/compare/v6.79.0...v6.79.1-rc.0) (2022-10-20)
+
+
+### Bug Fixes
+
+* get the latest tag ([252ab72](https://github.com/ParabolInc/parabol/commit/252ab72404e5c00f6c41c565e0236384f3cc6ddd))
+
+
+
+
+
+## [6.79.1-rc.0](https://github.com/ParabolInc/parabol/compare/v6.79.0...v6.79.1-rc.0) (2022-10-20)
+
+
+### Bug Fixes
+
+* get the latest tag ([252ab72](https://github.com/ParabolInc/parabol/commit/252ab72404e5c00f6c41c565e0236384f3cc6ddd))
+
+
+
+
+
 ## [6.78.1-rc.0](https://github.com/ParabolInc/parabol/compare/v6.78.0-beta.0...v6.78.1-rc.0) (2022-10-20)
 
 
