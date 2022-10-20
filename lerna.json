@@ -1,8 +1,12 @@
 {
   "npmClient": "yarn",
   "version": "6.78.1",
-  "useWorkspaces": true,
   "useNx": true,
+  "useWorkspaces": true,
+  "workspaces": [
+    ".",
+    "packages/*"
+  ],
   "command": {
     "version": {
       "message": "chore: release %s"
