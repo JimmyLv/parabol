@@ -20,6 +20,7 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
           git checkout -b release--branches--master
+          git push
           yarn install --frozen-lockfile
           npx lerna version --conventional-commits --conventional-prerelease --preid rc --yes
       - name: get-npm-version
