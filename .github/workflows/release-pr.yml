@@ -32,8 +32,8 @@ jobs:
         uses: devops-infra/action-pull-request@v0.5.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          source_branch: development
-          target_branch: master
+          source_branch: release--branches--master
+          target_branch: staging
           draft: true
           title: 'chore: release v${{ steps.package-version.outputs.current-version}}'
           body: |
