@@ -24,9 +24,8 @@ jobs:
           yarn install --frozen-lockfile
           npx lerna version --conventional-commits --conventional-prerelease --create-release github --preid rc --yes --no-push --force-git-tag
           git push --force --set-upstream origin release--branches--master --follow-tags
-      - name: get-npm-version
-        id: package-version
-        uses: martinbeentjes/npm-get-version-action@main
+      - uses: actions-ecosystem/action-get-latest-tag@v1
+        id: get-latest-tag
       - name: Create Pull Request
         id: cpr
         uses: devops-infra/action-pull-request@v0.5.1
