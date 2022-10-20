@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.78.2](https://github.com/JimmyLv/parabol/compare/v6.78.1...v6.78.2) (2022-10-20)
+
+
+### Bug Fixes
+
+* update the lerna version message ([ea4360c](https://github.com/JimmyLv/parabol/commit/ea4360cf8145c83fada174f941d7d232d44a8cae))
+
 ## [6.78.1-rc.0](https://github.com/ParabolInc/parabol/compare/v6.78.0-beta.0...v6.78.1-rc.0) (2022-10-20)
 
 
