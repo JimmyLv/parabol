@@ -22,7 +22,7 @@ jobs:
           git checkout master
           git checkout -b release--branches--master
           yarn install --frozen-lockfile
-          npx lerna version --conventional-commits --conventional-prerelease --create-release github --preid rc --yes --no-push
+          npx lerna version --conventional-commits --conventional-prerelease --create-release github --preid rc --yes --no-push --force-git-tag
           git push --force --set-upstream origin release--branches--master --follow-tags
       - name: get-npm-version
         id: package-version
