@@ -2,13 +2,36 @@ on:
   push:
     branches:
       - master
-      - staging
 name: release-please
 jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@v3
+        id: release
         with:
-          command: manifest
           token: ${{secrets.GITHUB_TOKEN}}
+          release-type: node
+      - uses: actions/checkout@v2
+      - name: "Use Node.js"
+        uses: actions/setup-node@v1
+        with:
+          node-version: "16.16.0"
+      - name: "Version and Release"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git checkout staging
+          npx lerna version --conventional-commits --conventional-prerelease --preid rc --yes
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v4
+        with:
+          base: production
+          branch: staging
+          draft: true
+      - name: Check outputs
+        if: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
