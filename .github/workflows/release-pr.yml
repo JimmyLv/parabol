@@ -31,7 +31,7 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@v4
         with:
-          base: staging
+          base: master
           branch: release--branches--master
           draft: true
           title: 'chore: release v${{ steps.package-version.outputs.current-version}}'
