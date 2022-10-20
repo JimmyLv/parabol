@@ -20,7 +20,8 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
           git checkout staging
-          git merge master
+          git reset --hard origin/master
+          git push --force
           yarn install --frozen-lockfile
           npx lerna version --conventional-commits --conventional-prerelease --preid rc --yes
       - name: get-npm-version
