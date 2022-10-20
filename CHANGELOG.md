@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.78.0](https://github.com/ParabolInc/parabol/compare/v6.78.0-beta.0...v6.78.0) (2022-10-20)
+
+
+### Bug Fixes
+
+* add yarn install ([1990b93](https://github.com/ParabolInc/parabol/commit/1990b93e02f04f07eb36d9543104e232621ec98b))
+* fetch all history for all tags and branches ([981da2a](https://github.com/ParabolInc/parabol/commit/981da2a9fc90bc67ae5910ad82b7828d60485308))
+* fix yaml format ([ce970b4](https://github.com/ParabolInc/parabol/commit/ce970b4da2985dae67146d0a5784f26cfd5758b1))
+* merge master to staging ([1be8a9b](https://github.com/ParabolInc/parabol/commit/1be8a9b39388bd71fec878b573f88c4258c2982e))
+* update the actions/checkout@v3 ([a2ed4ba](https://github.com/ParabolInc/parabol/commit/a2ed4baa10f8412167a072c837b06af06189de32))
+* update the actions/setup-node@v3 ([6382d20](https://github.com/ParabolInc/parabol/commit/6382d2007c51f89bad7c260a82bd465769990cfd))
+* update to use lerna version directly ([1245329](https://github.com/ParabolInc/parabol/commit/12453290e305f6a37712027c27b7b910b76592ee))
+
+
+
+
+
 # [6.78.0-beta.0](https://github.com/ParabolInc/parabol/compare/v6.37.0...v6.78.0-beta.0) (2022-10-13)
 
 
