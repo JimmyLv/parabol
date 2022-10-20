@@ -3,6 +3,64 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.78.2-rc.0](https://github.com/ParabolInc/parabol/compare/v6.78.1...v6.78.2-rc.0) (2022-10-20)
+
+
+### Bug Fixes
+
+* add github release ([2eed8b4](https://github.com/ParabolInc/parabol/commit/2eed8b44448073d384fbe776ee018335a0c146c3))
+* add root in package.json ([fc64616](https://github.com/ParabolInc/parabol/commit/fc646165c3ff68d8907c5e33004c408b01c5f42d))
+* git checkout master ([1b5bd5a](https://github.com/ParabolInc/parabol/commit/1b5bd5affc85621d2b1a0543ad6c04153101ba13))
+* git push firstly ([cf9c62c](https://github.com/ParabolInc/parabol/commit/cf9c62c413f0fd6c305be6d87509c38fccb701b0))
+* git push with upstream firstly ([024ad57](https://github.com/ParabolInc/parabol/commit/024ad571976bb1d487222441ba9ace3cce41c09e))
+* pr against master ([674b006](https://github.com/ParabolInc/parabol/commit/674b0060836eb8757756425181ef723167efb985))
+* push tags ([fa949cf](https://github.com/ParabolInc/parabol/commit/fa949cf00a85ad3326a09b5a1fa931f715b1d853))
+* refresh the staging branch from master ([40a7999](https://github.com/ParabolInc/parabol/commit/40a7999495ca6166f75408fa817bd77bcffe3d6b))
+* remove template ([d87e1b6](https://github.com/ParabolInc/parabol/commit/d87e1b6d9bbc18219e1cd6494db03938386fc892))
+* removed the release-please ([ed61ea4](https://github.com/ParabolInc/parabol/commit/ed61ea4c10faa995c302aeceb6257cba1869fc6d))
+* update branch ([96ad1b3](https://github.com/ParabolInc/parabol/commit/96ad1b37a51c601f2b0e965a667eef4fd90c0be5))
+* update lerna workspaces & release pr info ([f469aa4](https://github.com/ParabolInc/parabol/commit/f469aa4de885567af1cc86727cc2e6ccd620b2f5))
+* update the checkout branch ([f8e1802](https://github.com/ParabolInc/parabol/commit/f8e18022507df9f16a3e471491bf0cc1332f1cf7))
+* update the lerna version message ([ea4360c](https://github.com/ParabolInc/parabol/commit/ea4360cf8145c83fada174f941d7d232d44a8cae))
+* update the pr body ([67b2239](https://github.com/ParabolInc/parabol/commit/67b22393e1da4fedf389f6415e756a64258a5b04))
+* update the pr branch ([a48f6fb](https://github.com/ParabolInc/parabol/commit/a48f6fbb28cf9f44601964b53ff3a93957834bb1))
+* update the pr title ([120d732](https://github.com/ParabolInc/parabol/commit/120d732705fc5e1bd0ad9aa0958a07a3295a01ad))
+* update to use devops-infra/action-pull-request ([806b80e](https://github.com/ParabolInc/parabol/commit/806b80e2cd8f631143adf59be5a5b2c880c5847d))
+* use manually force push ([824a8cf](https://github.com/ParabolInc/parabol/commit/824a8cfbbec241b4c89a05afb54185725ad63afb))
+
+
+
+
+
+## [6.78.2-rc.0](https://github.com/ParabolInc/parabol/compare/v6.78.1...v6.78.2-rc.0) (2022-10-20)
+
+
+### Bug Fixes
+
+* add github release ([2eed8b4](https://github.com/ParabolInc/parabol/commit/2eed8b44448073d384fbe776ee018335a0c146c3))
+* add root in package.json ([fc64616](https://github.com/ParabolInc/parabol/commit/fc646165c3ff68d8907c5e33004c408b01c5f42d))
+* git checkout master ([1b5bd5a](https://github.com/ParabolInc/parabol/commit/1b5bd5affc85621d2b1a0543ad6c04153101ba13))
+* git push firstly ([cf9c62c](https://github.com/ParabolInc/parabol/commit/cf9c62c413f0fd6c305be6d87509c38fccb701b0))
+* git push with upstream firstly ([024ad57](https://github.com/ParabolInc/parabol/commit/024ad571976bb1d487222441ba9ace3cce41c09e))
+* pr against master ([674b006](https://github.com/ParabolInc/parabol/commit/674b0060836eb8757756425181ef723167efb985))
+* push tags ([fa949cf](https://github.com/ParabolInc/parabol/commit/fa949cf00a85ad3326a09b5a1fa931f715b1d853))
+* refresh the staging branch from master ([40a7999](https://github.com/ParabolInc/parabol/commit/40a7999495ca6166f75408fa817bd77bcffe3d6b))
+* remove template ([d87e1b6](https://github.com/ParabolInc/parabol/commit/d87e1b6d9bbc18219e1cd6494db03938386fc892))
+* removed the release-please ([ed61ea4](https://github.com/ParabolInc/parabol/commit/ed61ea4c10faa995c302aeceb6257cba1869fc6d))
+* update branch ([96ad1b3](https://github.com/ParabolInc/parabol/commit/96ad1b37a51c601f2b0e965a667eef4fd90c0be5))
+* update lerna workspaces & release pr info ([f469aa4](https://github.com/ParabolInc/parabol/commit/f469aa4de885567af1cc86727cc2e6ccd620b2f5))
+* update the checkout branch ([f8e1802](https://github.com/ParabolInc/parabol/commit/f8e18022507df9f16a3e471491bf0cc1332f1cf7))
+* update the lerna version message ([ea4360c](https://github.com/ParabolInc/parabol/commit/ea4360cf8145c83fada174f941d7d232d44a8cae))
+* update the pr body ([67b2239](https://github.com/ParabolInc/parabol/commit/67b22393e1da4fedf389f6415e756a64258a5b04))
+* update the pr branch ([a48f6fb](https://github.com/ParabolInc/parabol/commit/a48f6fbb28cf9f44601964b53ff3a93957834bb1))
+* update the pr title ([120d732](https://github.com/ParabolInc/parabol/commit/120d732705fc5e1bd0ad9aa0958a07a3295a01ad))
+* update to use devops-infra/action-pull-request ([806b80e](https://github.com/ParabolInc/parabol/commit/806b80e2cd8f631143adf59be5a5b2c880c5847d))
+* use manually force push ([824a8cf](https://github.com/ParabolInc/parabol/commit/824a8cfbbec241b4c89a05afb54185725ad63afb))
+
+
+
+
+
 ## [6.78.1-rc.0](https://github.com/ParabolInc/parabol/compare/v6.78.0-beta.0...v6.78.1-rc.0) (2022-10-20)
 
 
