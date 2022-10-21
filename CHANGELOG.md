@@ -3,6 +3,62 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.80.0](https://github.com/ParabolInc/parabol/compare/v6.79.0...v6.80.0) (2022-10-21)
+
+
+### Bug Fixes
+
+* add RELEASE_PULL_REQUEST_TEMPLATE.md ([76b4780](https://github.com/ParabolInc/parabol/commit/76b478090df2d76ef97aaa5312e45bab67049993))
+* add release-drafter ([1a33c4b](https://github.com/ParabolInc/parabol/commit/1a33c4b26abf6f58aaace27ee17eccb8920fd9b8))
+* added get_diff: true ([f64dfc1](https://github.com/ParabolInc/parabol/commit/f64dfc1f427ed6a6c05507ccff52615ef9b4a109))
+* added release-drafter.yml config ([43f712f](https://github.com/ParabolInc/parabol/commit/43f712f4382eddaaf623f0c2905427a2abfbf0fd))
+* get the latest tag ([252ab72](https://github.com/ParabolInc/parabol/commit/252ab72404e5c00f6c41c565e0236384f3cc6ddd))
+* made small change ([895e7d3](https://github.com/ParabolInc/parabol/commit/895e7d3047e5a372904bff78bfbb1f51a6e11b8b))
+* make small change ([ebabf5f](https://github.com/ParabolInc/parabol/commit/ebabf5f42f1896e95470f94395821cce04efdd01))
+* remove get git tag ([3c928f8](https://github.com/ParabolInc/parabol/commit/3c928f82537b64cfaeecab6ad6e66de0cab7bedb))
+* typo ([e08cd47](https://github.com/ParabolInc/parabol/commit/e08cd474f0c9f4e1e1f9f0287e6ac5e360b1b990))
+* update the pr template ([16921fe](https://github.com/ParabolInc/parabol/commit/16921fe7e545fbcc8994167ae9c6360ea982effa))
+* update the push ([2aae620](https://github.com/ParabolInc/parabol/commit/2aae620665a9971bf10a48ed6efcd9d3305b11e9))
+* use the lerna version push & postversion push ([846b8e2](https://github.com/ParabolInc/parabol/commit/846b8e21bb0de5333de3a4ba0dabebf99eb20a7d))
+
+
+### Features
+
+* add RELEASE_PULL_REQUEST_TEMPLATE.md ([93506e7](https://github.com/ParabolInc/parabol/commit/93506e7ce941edc21d21674add9a5ccaf1cf5b17))
+* added release-production.yml ([73d30ba](https://github.com/ParabolInc/parabol/commit/73d30ba2d962b02df3bf5e8bffd9c3ed5b337efe))
+
+
+
+
+
+# [6.80.0](https://github.com/ParabolInc/parabol/compare/v6.79.0...v6.80.0) (2022-10-21)
+
+
+### Bug Fixes
+
+* add RELEASE_PULL_REQUEST_TEMPLATE.md ([76b4780](https://github.com/ParabolInc/parabol/commit/76b478090df2d76ef97aaa5312e45bab67049993))
+* add release-drafter ([1a33c4b](https://github.com/ParabolInc/parabol/commit/1a33c4b26abf6f58aaace27ee17eccb8920fd9b8))
+* added get_diff: true ([f64dfc1](https://github.com/ParabolInc/parabol/commit/f64dfc1f427ed6a6c05507ccff52615ef9b4a109))
+* added release-drafter.yml config ([43f712f](https://github.com/ParabolInc/parabol/commit/43f712f4382eddaaf623f0c2905427a2abfbf0fd))
+* get the latest tag ([252ab72](https://github.com/ParabolInc/parabol/commit/252ab72404e5c00f6c41c565e0236384f3cc6ddd))
+* made small change ([895e7d3](https://github.com/ParabolInc/parabol/commit/895e7d3047e5a372904bff78bfbb1f51a6e11b8b))
+* make small change ([ebabf5f](https://github.com/ParabolInc/parabol/commit/ebabf5f42f1896e95470f94395821cce04efdd01))
+* remove get git tag ([3c928f8](https://github.com/ParabolInc/parabol/commit/3c928f82537b64cfaeecab6ad6e66de0cab7bedb))
+* typo ([e08cd47](https://github.com/ParabolInc/parabol/commit/e08cd474f0c9f4e1e1f9f0287e6ac5e360b1b990))
+* update the pr template ([16921fe](https://github.com/ParabolInc/parabol/commit/16921fe7e545fbcc8994167ae9c6360ea982effa))
+* update the push ([2aae620](https://github.com/ParabolInc/parabol/commit/2aae620665a9971bf10a48ed6efcd9d3305b11e9))
+* use the lerna version push & postversion push ([846b8e2](https://github.com/ParabolInc/parabol/commit/846b8e21bb0de5333de3a4ba0dabebf99eb20a7d))
+
+
+### Features
+
+* add RELEASE_PULL_REQUEST_TEMPLATE.md ([93506e7](https://github.com/ParabolInc/parabol/commit/93506e7ce941edc21d21674add9a5ccaf1cf5b17))
+* added release-production.yml ([73d30ba](https://github.com/ParabolInc/parabol/commit/73d30ba2d962b02df3bf5e8bffd9c3ed5b337efe))
+
+
+
+
+
 # [6.80.0-rc.0](https://github.com/ParabolInc/parabol/compare/v6.79.0...v6.80.0-rc.0) (2022-10-21)
 
 
