@@ -3,6 +3,10 @@
   "version": "6.80.0",
   "useNx": true,
   "useWorkspaces": true,
+  "workspaces": [
+    ".",
+    "packages/*"
+  ],
   "command": {
     "version": {
       "message": "chore: release %s"
