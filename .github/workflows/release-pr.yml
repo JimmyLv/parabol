@@ -34,9 +34,9 @@ jobs:
           git config user.email "${{ github.actor}}@users.noreply.github.com"
           git checkout master
           git checkout -b release--branches--master
-          git push --force --set-upstream origin release--branches--master
           yarn install --frozen-lockfile
-          npx lerna version --conventional-commits --conventional-prerelease --create-release github --preid rc --force-git-tag --yes
+          npx lerna version --conventional-commits --conventional-prerelease --create-release github --preid rc --yes --no-push --force-git-tag
+          git push --force --set-upstream origin release--branches--master --follow-tags
       - name: "Create Pull Request"
         id: cpr
         uses: devops-infra/action-pull-request@v0.5.1
