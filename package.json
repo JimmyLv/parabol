@@ -17,10 +17,7 @@
     "yarn": "^1.22.5"
   },
   "private": true,
-  "workspaces": [
-    ".",
-    "packages/*"
-  ],
+  "workspaces": ["packages/*"],
   "scripts": {
     "start": "pm2-runtime start pm2.config.js",
     "heroku-postbuild": "echo 'Skipping build'",
