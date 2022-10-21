@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.80.1-rc.0](https://github.com/ParabolInc/parabol/compare/v6.79.0...v6.80.1-rc.0) (2022-10-21)
+
+
+### Bug Fixes
+
+* make small change ([ebabf5f](https://github.com/ParabolInc/parabol/commit/ebabf5f42f1896e95470f94395821cce04efdd01))
+
+
+
+
+
 # [6.80.0](https://github.com/ParabolInc/parabol/compare/v6.79.0...v6.80.0) (2022-10-21)
 
 
