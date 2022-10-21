@@ -1,6 +1,6 @@
 {
   "npmClient": "yarn",
-  "version": "6.80.1-rc.0",
+  "version": "6.80.1",
   "useNx": true,
   "useWorkspaces": true,
   "command": {
