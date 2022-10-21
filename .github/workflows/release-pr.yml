@@ -4,6 +4,19 @@ on:
       - master
 name: release-please
 jobs:
+  update_release_draft:
+    permissions:
+      # write permission is required to create a github release
+      contents: write
+      # write permission is required for autolabeler
+      # otherwise, read permission is required at least
+      pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+      # Drafts your next Release notes as Pull Requests are merged into "master"
+      - uses: release-drafter/release-drafter@v5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   release-pr:
     runs-on: ubuntu-latest
     steps:
@@ -17,7 +30,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config user.name "${{ github.actor }}"
+          git config user.name "${{ github.actor }}"π
           git config user.email "${{ github.actor}}@users.noreply.github.com"
           git checkout master
           git checkout -b release--branches--master
