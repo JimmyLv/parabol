@@ -1,10 +1,10 @@
 on:
   push:
     branches:
-      - master
-name: release-please
+      - staging
+name: release-production
 jobs:
-  release-please:
+  release-pr:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -19,23 +19,22 @@ jobs:
         run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
-          git checkout master
-          git checkout -b release--branches--master
+          git checkout staging
+          git checkout -b release--branches--staging
           yarn install --frozen-lockfile
-          npx lerna version --conventional-commits --conventional-prerelease --create-release github --preid rc --yes --no-push
-          git push --force --set-upstream origin release--branches--master --follow-tags
-      - name: get-npm-version
-        id: package-version
-        uses: martinbeentjes/npm-get-version-action@main
-      - name: Create Pull Request
+          npx lerna version --conventional-commits --conventional-graduate --create-release github --yes --no-push --force-git-tag
+          git push --force --set-upstream origin release--branches--staging --follow-tags
+      - name: "Create Pull Request"
         id: cpr
         uses: devops-infra/action-pull-request@v0.5.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          source_branch: release--branches--master
-          target_branch: staging
+          source_branch: release--branches--staging
+          target_branch: production
+          template: .github/RELEASE_PULL_REQUEST_TEMPLATE.md
           draft: true
-      - name: Check outputs
+          get_diff: true
+      - name: "Check outputs"
         if: ${{ steps.cpr.outputs.pull-request-number }}
         run: |
           echo "Pull Request URL - ${{ steps.cpr.outputs.url }}"
