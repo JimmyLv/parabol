@@ -3,6 +3,44 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.80.0-rc.0](https://github.com/ParabolInc/parabol/compare/v6.79.0...v6.80.0-rc.0) (2022-10-21)
+
+
+### Bug Fixes
+
+* get the latest tag ([252ab72](https://github.com/ParabolInc/parabol/commit/252ab72404e5c00f6c41c565e0236384f3cc6ddd))
+* make small change ([ebabf5f](https://github.com/ParabolInc/parabol/commit/ebabf5f42f1896e95470f94395821cce04efdd01))
+* remove get git tag ([3c928f8](https://github.com/ParabolInc/parabol/commit/3c928f82537b64cfaeecab6ad6e66de0cab7bedb))
+* use the lerna version push & postversion push ([846b8e2](https://github.com/ParabolInc/parabol/commit/846b8e21bb0de5333de3a4ba0dabebf99eb20a7d))
+
+
+### Features
+
+* add RELEASE_PULL_REQUEST_TEMPLATE.md ([93506e7](https://github.com/ParabolInc/parabol/commit/93506e7ce941edc21d21674add9a5ccaf1cf5b17))
+
+
+
+
+
+# [6.80.0-rc.0](https://github.com/ParabolInc/parabol/compare/v6.79.0...v6.80.0-rc.0) (2022-10-21)
+
+
+### Bug Fixes
+
+* get the latest tag ([252ab72](https://github.com/ParabolInc/parabol/commit/252ab72404e5c00f6c41c565e0236384f3cc6ddd))
+* make small change ([ebabf5f](https://github.com/ParabolInc/parabol/commit/ebabf5f42f1896e95470f94395821cce04efdd01))
+* remove get git tag ([3c928f8](https://github.com/ParabolInc/parabol/commit/3c928f82537b64cfaeecab6ad6e66de0cab7bedb))
+* use the lerna version push & postversion push ([846b8e2](https://github.com/ParabolInc/parabol/commit/846b8e21bb0de5333de3a4ba0dabebf99eb20a7d))
+
+
+### Features
+
+* add RELEASE_PULL_REQUEST_TEMPLATE.md ([93506e7](https://github.com/ParabolInc/parabol/commit/93506e7ce941edc21d21674add9a5ccaf1cf5b17))
+
+
+
+
+
 ## [6.78.1-rc.0](https://github.com/ParabolInc/parabol/compare/v6.78.0-beta.0...v6.78.1-rc.0) (2022-10-20)
 
 
