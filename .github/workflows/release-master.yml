@@ -1,8 +1,8 @@
 on:
   push:
     branches:
-      - staging
-name: release-production
+      - master
+name: release-master
 jobs:
   release-pr:
     runs-on: ubuntu-latest
@@ -19,18 +19,18 @@ jobs:
         run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
-          git checkout staging
-          git checkout -b release--branches--staging
+          git checkout master
+          git checkout -b release--branches--master
           yarn install --frozen-lockfile
-          npx lerna version --conventional-commits --conventional-graduate --create-release github --yes --no-push --force-git-tag
-          git push --force --set-upstream origin release--branches--staging --follow-tags
+          npx lerna version --conventional-commits --conventional-prerelease --create-release github --preid rc --yes --no-push --force-git-tag
+          git push --force --set-upstream origin release--branches--master --follow-tags
       - name: "Create Pull Request"
         id: cpr
         uses: devops-infra/action-pull-request@v0.5.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          source_branch: release--branches--staging
-          target_branch: production
+          source_branch: release--branches--master
+          target_branch: staging
           template: .github/RELEASE_PULL_REQUEST_TEMPLATE.md
           draft: true
           get_diff: true
