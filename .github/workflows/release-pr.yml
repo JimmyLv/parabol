@@ -33,6 +33,7 @@ jobs:
           target_branch: staging
           template: .github/RELEASE_PULL_REQUEST_TEMPLATE.md
           draft: true
+          get_diff: true
       - name: "Check outputs"
         if: ${{ steps.cpr.outputs.pull-request-number }}
         run: |
