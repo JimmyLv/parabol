@@ -4,7 +4,7 @@ on:
       - master
 name: release-please
 jobs:
-  release-please:
+  release-pr:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -31,6 +31,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           source_branch: release--branches--master
           target_branch: staging
+          template: .github/RELEASE_PULL_REQUEST_TEMPLATE.md
           draft: true
       - name: "Check outputs"
         if: ${{ steps.cpr.outputs.pull-request-number }}
