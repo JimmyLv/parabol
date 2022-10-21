@@ -2,10 +2,16 @@
 
 **Automatic pull request for release: update the CHANGELOG.md and package versions**
 
-## Commits
+## :memo:  Brief summary
+<!-- Diff summary - START -->
+<!-- Diff summary - END -->
 
-<!-- Diff commits -->
+<!-- Write you description here -->
 
-## Modified files
+## :computer:  Commits
+<!-- Diff commits - START -->
+<!-- Diff commits - END -->
 
-<!-- Diff files -->
+## :file_folder:  Modified files
+<!-- Diff files - START -->
+<!-- Diff files - END -->
