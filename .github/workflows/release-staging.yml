@@ -1,0 +1,40 @@
+on:
+  push:
+    branches:
+      - master
+name: release-staging
+jobs:
+  release-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: "Version and Release"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor}}@users.noreply.github.com"
+          git checkout master
+          git checkout -b release--branches--master
+          yarn install --frozen-lockfile
+          npx lerna version --conventional-commits --conventional-prerelease --create-release github --preid rc --yes --no-push --force-git-tag
+          git push --force --set-upstream origin release--branches--master --follow-tags
+      - name: "Create Pull Request"
+        id: cpr
+        uses: devops-infra/action-pull-request@v0.5.1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          source_branch: release--branches--master
+          target_branch: staging
+          template: .github/RELEASE_PULL_REQUEST_TEMPLATE.md
+          draft: true
+          get_diff: true
+      - name: "Check outputs"
+        if: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          echo "Pull Request URL - ${{ steps.cpr.outputs.url }}"
