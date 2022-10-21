@@ -1,5 +1,6 @@
 ## Adding a New Feature
 
+
 New GraphQL features can be added using the schema definition language (SDL).
 All new schema additions should be added in this directory.
 
